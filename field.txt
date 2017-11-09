@@ -1,0 +1,49 @@
+﻿
+http://localhost:5000/?date=2017-06-15
+
+docker run --restart always -p 8014:8014 --name='schedule_20170927_prod' schedule_schedule
+
+
+python F:\github\Chinese-Character-Recognition\chinese_character_recognition_bn.py --mode=train --max_steps=16002 --eval_steps=100 --save_steps=500
+
+上传文件：rz
+列出储存： docker volume ls
+查看详细信息： docker volume inspect
+启动容器: docker-compose up -d 不要日志
+			 down 关闭 
+下载文件:sz
+进入docker容器：docker exec -it hopeful_hugle /bin/bash
+
+
+openface  http://blog.topspeedsnail.com/archives/10933
+提取和aligned
+./util/align-dlib.py ./dataimage/train/ align outerEyesAndNose ./dataimage/aligned-images/ --size 96
+提取特征
+./batch-represent/main.lua -outDir ./dataimage/generated-embeddings/ -data ./dataimage/aligned-images/
+开始训练
+./demos/classifier.py train ./dataimage/generated-embeddings/
+识别
+./demos/classifier.py infer ./dataimage/generated-embeddings/classifier.pkl ./dataimage/test/test5.jpg
+
+docker copy 
+容器到本机：
+docker cp ccaa9c6f5372:/root/openface/demos/web ./web
+
+主机到容器：挂载mv
+docker run -v  本机地址：容器地址
+docker cp 要拷贝的文件路径 容器名：要拷贝到容器里面对应的路径
+
+openface demo web:
+/root/openface/demos/web/start-servers.sh
+
+openface run:
+docker run -p 9000:9000 -p 8000:8000 -v F:\github\swmopenface\demos:/root/openface/demos -t -i bamos/openface /bin/bash
+
+docker国内镜像：https://docker.mirrors.ustc.edu.cn
+docker进入系统
+docker run -it YOUR_IMAGE /bin/sh
+
+th neural_style.lua -style_image swmstyle/style8.jpg -content_image swmdata/data1.jpg -output_image swmgetdata/get1.png -model_file models/nin_imagenet_conv.caffemodel -proto_file models/train_val.prototxt -gpu -1 -backend clnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 1000 -image_size 512 -optimizer adam
+清华镜像：pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple 
+pip安装不要缓存:--no-cache-dir
+
