@@ -46,4 +46,6 @@ docker run -it YOUR_IMAGE /bin/sh
 th neural_style.lua -style_image swmstyle/style8.jpg -content_image swmdata/data1.jpg -output_image swmgetdata/get1.png -model_file models/nin_imagenet_conv.caffemodel -proto_file models/train_val.prototxt -gpu -1 -backend clnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 1000 -image_size 512 -optimizer adam
 清华镜像：pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple 
 pip安装不要缓存:--no-cache-dir
+启动ubuantu虚拟环境：source ~/tensorflow/bin/activate 
 
+docker tag swm/websocket:20171106 116.62.70.120:5000/swm/websocket:20171106
