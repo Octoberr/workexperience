@@ -49,3 +49,16 @@ pip安装不要缓存:--no-cache-dir
 启动ubuantu虚拟环境：source ~/tensorflow/bin/activate 
 
 docker tag swm/websocket:20171106 116.62.70.120:5000/swm/websocket:20171106
+
+查看linux版本信息：lsb_release -a
+cat /proc/version
+
+conda install opencv3
+conda install numpy
+conda install anaconda-client
+conda install --channel https://conda.anaconda.org/menpo opencv3
+
+docker修改镜像名字
+docker tag imageid name:tag
+
+happy birthday:print map(lambda x: "Happy Birthday to " + ("you" if x != 2 else "swm"),range(4))
