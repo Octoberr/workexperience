@@ -59,6 +59,7 @@ conda install anaconda-client
 conda install --channel https://conda.anaconda.org/menpo opencv3
 
 docker修改镜像名字
+-d 服务器挂起在后台
 docker tag imageid name:tag
 
 happy birthday:print map(lambda x: "Happy Birthday to " + ("you" if x != 2 else "swm"),range(4))
