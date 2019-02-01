@@ -45,6 +45,7 @@ docker run -it YOUR_IMAGE /bin/sh
 
 th neural_style.lua -style_image swmstyle/style8.jpg -content_image swmdata/data1.jpg -output_image swmgetdata/get1.png -model_file models/nin_imagenet_conv.caffemodel -proto_file models/train_val.prototxt -gpu -1 -backend clnn -num_iterations 1000 -seed 123 -content_layers relu0,relu3,relu7,relu12 -style_layers relu0,relu3,relu7,relu12 -content_weight 10 -style_weight 1000 -image_size 512 -optimizer adam
 清华镜像：pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple 
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 pip安装不要缓存:--no-cache-dir
 启动ubuantu虚拟环境：source ~/tensorflow/bin/activate 
 
@@ -62,4 +63,20 @@ docker修改镜像名字
 -d 服务器挂起在后台
 docker tag imageid name:tag
 
-happy birthday:print map(lambda x: "Happy Birthday to " + ("you" if x != 2 else "swm"),range(4))
+scrapy crawl TweetScraper -a query="Trump"
+
+ssr启动：/etc/init.d/shadowsocks-r start | stop | restart | status
+docker对镜像的操作
+.保存save - 加载 load
+wget java --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie"
+
+docker run --restart always --name='telegram_swm_0724' -v /home/telegram/:/home/telegram/ -d telegram:20180724
+安装lsb_realease : yum install -y redhat-lsb
+
+修改root密码： passwd root
+
+build 包：python setup.py bdist_wheel
+上传或者更新到pypitest
+pypi test:twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+上传或者更新pypi
+twine upload dist/*
