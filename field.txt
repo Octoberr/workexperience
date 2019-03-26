@@ -80,3 +80,6 @@ build 包：python setup.py bdist_wheel
 pypi test:twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 上传或者更新pypi
 twine upload dist/*
+
+安装：pip install twine
+pypi的账号gmail,username:october
