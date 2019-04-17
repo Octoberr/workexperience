@@ -1,4 +1,7 @@
 # workexperience
-some experience from work
-field.txt --一些linux命令和docker命令
-ubuntu.txt -- 在ubuntu16.04上安装python, tensorflow, 以及源代码安装opencv
+Get some experience from work
+
+field.txt --涓�浜沴inux鍛戒护鍜宒ocker鍛戒护
+鏇存柊浜嗕竴浜涜嚜宸卞湪pypi绀惧尯涓婁紶鑷繁python鍖呯殑鍛戒护
+
+ubuntu.txt -- 鍦╱buntu16.04涓婂畨瑁卲ython, tensorflow, 浠ュ強婧愪唬鐮佸畨瑁卭pencv
