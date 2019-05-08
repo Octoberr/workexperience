@@ -83,3 +83,13 @@ twine upload dist/*
 
 安装：pip install twine
 pypi的账号gmail,username:october
+
+github主页
+https://github.com/Octoberr?tab=repositories
+python社区pypi主页
+https://pypi.org/project/swmtools/
+docker社区dockerhub主页
+https://hub.docker.com/u/shiyue
+
+唉
+Today`s wind is a little uproarious. 
