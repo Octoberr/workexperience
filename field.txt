@@ -150,10 +150,21 @@ nmap 192.168.90.253 -p 20,21,22,23,25,53,80,110,123,143,443,993,995,1433,3389,63
 删除容器docker rm $(docker ps -a -q) 或者 docker rm $(docker ps -aq) 
 
 
+自己的动态代理
+luminati_proxy_dict = {
+    'http': 'http://lum-customer-hl_c92b4743-zone-static:68xg9bkhsa26@zproxy.lum-superproxy.io:22225',
+    'https': 'http://lum-customer-hl_c92b4743-zone-static:68xg9bkhsa26@zproxy.lum-superproxy.io:22225'
+}
 
+#压缩
+tar -czvf ***.tar.gz
+tar -cjvf ***.tar.bz2
+#解压缩
+tar -xzvf ***.tar.gz -C 指定文件夹（要先创建）
+tar -xjvf ***.tar.bz2
 
-
-
+使用物理机网卡启动Docker
+docker run --name idownclient --restart always --net=host -v /home/idownclient:/home/idownclient -d idownclient:201027
 
 
 
