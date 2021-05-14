@@ -166,12 +166,36 @@ tar -xjvf ***.tar.bz2
 使用物理机网卡启动Docker
 docker run --name idownclient --restart always --net=host -v /home/idownclient:/home/idownclient -d idownclient:201027
 
+git ssl error 的解决方法
 
+git config http.sslVerify "false"
+如果提示：fatal: not in a git directory
+先执行git init
+再输入：git config http.sslVerify "false"
 
+app抓包
+模拟器 charles
+1、charles安装ssl证书，模拟器安装ssl证书，模拟器安装xposed 和just trust me
+2、charles设置代理，模拟器设置代理去连charles
+3、安装app就可以抓包了 
 
+conda 安装环境
+conda create -n 环境名字 python=3.6.4 request
 
+git 生成sshkey
+1、cd ~/.ssh/
+# 2/3可以忽略
+2、git config --global user.name "用户名"
+3、git config --global user.email "你的公司或个人邮箱"
 
+生成key
+4、ssh-keygen -t rsa -C "github邮箱账户"
 
+5、复制id_rsa.pub的数据到github生成key即可进行ssh拉取
 
+accept:
+zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
 
+fastapi https
+uvicorn zhiliao:app --host 0.0.0.0 --port 8080 --ssl-keyfile /ssl/private.key --ssl-certfile /ssl/certificate.crt
 
