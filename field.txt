@@ -199,3 +199,8 @@ zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7
 fastapi https
 uvicorn zhiliao:app --host 0.0.0.0 --port 8080 --ssl-keyfile /ssl/private.key --ssl-certfile /ssl/certificate.crt
 
+
+
+中国科学技术大学 : https://pypi.mirrors.ustc.edu.cn/simple
+豆瓣：http://pypi.douban.com/simple/
+
