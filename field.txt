@@ -83,6 +83,7 @@ docker run --restart always --name='telegram_swm_0724' -v /home/telegram/:/home/
 
 build 包：python setup.py bdist_wheel
 上传或者更新到pypitest
+pip install twine
 pypi test:twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 上传或者更新pypi
 twine upload dist/*
@@ -203,4 +204,64 @@ uvicorn zhiliao:app --host 0.0.0.0 --port 8080 --ssl-keyfile /ssl/private.key --
 
 中国科学技术大学 : https://pypi.mirrors.ustc.edu.cn/simple
 豆瓣：http://pypi.douban.com/simple/
+
+
+后台启动程序除了screen还有nohup
+nohup ./my-shell-script.sh & 输出日志到默认文件
+nohup ./program >/dev/null 2>&1 & 不输出日志
+
+docker 解决时区不一致的问题
+1，最傻瓜也最方便的处理方式，运行新的容器前设置本机时区和时间文件与容器的映射docker run -v/etc/timezone:/etc/timezone -v /etc/localtime:/etc/localtime ...1-v/etc/timezone:/etc/timezone -v /etc/localtime:/etc/localtime 命令为文件映射的命令，后面在写自己的启动代码。2，拷贝文件到已经存在的容器docker cp /etc/localtime [containerId]:/etc/localtimedocker cp /etc/timezone [containerId]:/etc/timezone12以上将宿主机的时间与本地时间绑定到容器中，这样时间就会跟宿主机一样了。/etc/timezone // 时区/etc/localtime // 时间12验证时间是否正确,在控制台输入以下命令即可[root@izbp11gsqdkmgt6b1r4kajz ~]# date2018-09-07 09:49:32
+
+
+
+# go使用国内镜像作为go mod
+# 启用 Go Modules 功能
+go env -w GO111MODULE=on
+
+# 配置 GOPROXY 环境变量，以下三选一
+
+# 1. 七牛 CDN
+go env -w  GOPROXY=https://goproxy.cn,direct
+
+# 2. 阿里云
+go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+
+# 3. 官方
+go env -w  GOPROXY=https://goproxy.io,direct
+
+git submodule update --init
+
+统计当前目录下文件的个数（不包括目录）
+ls -l | grep "^-" | wc -l
+统计当前目录下文件的个数（包括子目录）
+ls -lR| grep "^-" | wc -l
+查看某目录下文件夹(目录)的个数（包括子目录）
+ls -lR | grep "^d" | wc -l
+
+
+ls -l
+长列表输出该目录下文件信息(注意这里的文件是指目录、链接、设备文件等)，每一行对应一个文件或目录，ls -lR是列出所有文件，包括子目录。
+
+grep "^-"
+过滤ls的输出信息，只保留一般文件，只保留目录是grep "^d"。
+
+wc -l
+统计输出信息的行数，统计结果就是输出信息的行数，一行信息对应一个文件，所以就是文件的个数。
+
+screen 操作命令
+ screen -S session_name　创建一个session
+Ctrl-a c(小写)        新建 bash screen 终端
+Ctrl-a "       列出所有的窗口
+Ctrl-a A       重命名  
+Ctrl-a 空格     窗口切换
+Ctrl+a 0-9 ：在第0个窗口和第9个窗口之间切换
+Ctrl+a K(大写) ：关闭当前窗口，并且切换到下一个窗口（当退出最后一个窗口时，该终端自动终止，并且退回到原始shell状态）
+exit ：关闭当前窗口，并且切换到下一个窗口（当退出最后一个窗口时，该终端自动终止，并且退回到原始shell状态）
+
+Ctrl-a d        断开所有 screen 终端，返回 screen 执行前状态，但 screen 内所有终端的任务都在执行
+screen -ls     列出当前用户的所有 screen 实例，包括联接和断开的
+screen -R     重新联接到已断开的 screen 实例，如果有多个已断开的 screen 实例，则用 区分
+
+
 
