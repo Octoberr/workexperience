@@ -263,5 +263,17 @@ Ctrl-a d        断开所有 screen 终端，返回 screen 执行前状态，但
 screen -ls     列出当前用户的所有 screen 实例，包括联接和断开的
 screen -R     重新联接到已断开的 screen 实例，如果有多个已断开的 screen 实例，则用 区分
 
+vim 都是在esc模式下
+:set nu：显示行号。
+:set nonu：隐藏行号。
+:set syntax=on：启用语法高亮。
+gg：跳到文件开头。
+G：跳到文件末尾。
+w：跳到下一个单词的开头。
+b：跳到上一个单词的开头。
+$: 跳到行尾。
+{: 跳到段落开头。
+}: 跳到段落结尾。
+
 
 
