@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="animal_maze">
+    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="add vim">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/animal_maze.txt" beforeDir="false" afterPath="$PROJECT_DIR$/animal_maze.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/field.txt" beforeDir="false" afterPath="$PROJECT_DIR$/field.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,12 +178,14 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Python.reverseinteger">
     <configuration name="LongestSubstringWithoutRepeatingCharacters" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workexperience" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -208,6 +208,7 @@
     </configuration>
     <configuration name="addtwonum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workexperience" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -230,6 +231,7 @@
     </configuration>
     <configuration name="longestpalindromicsubstring" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workexperience" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -252,6 +254,7 @@
     </configuration>
     <configuration name="reverseinteger" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workexperience" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -274,6 +277,7 @@
     </configuration>
     <configuration name="zigzagconversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="workexperience" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -295,11 +299,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.addtwonum" />
       <item itemvalue="Python.LongestSubstringWithoutRepeatingCharacters" />
+      <item itemvalue="Python.addtwonum" />
       <item itemvalue="Python.longestpalindromicsubstring" />
-      <item itemvalue="Python.zigzagconversion" />
       <item itemvalue="Python.reverseinteger" />
+      <item itemvalue="Python.zigzagconversion" />
     </list>
     <recent_temporary>
       <list>
@@ -310,6 +314,13 @@
         <item itemvalue="Python.addtwonum" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-67fca87a943a-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.259" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -325,7 +336,9 @@
       <workItem from="1701854610599" duration="3508000" />
       <workItem from="1701919000833" duration="2828000" />
       <workItem from="1701940840800" duration="817000" />
-      <workItem from="1702022708219" duration="639000" />
+      <workItem from="1702022708219" duration="1657000" />
+      <workItem from="1702258990385" duration="51000" />
+      <workItem from="1702259049152" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="animal_maze">
       <option name="closed" value="true" />
@@ -335,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701858113289</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add vim">
+      <option name="closed" value="true" />
+      <created>1702025425693</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702025425693</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -371,7 +392,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="animal_maze" />
-    <option name="LAST_COMMIT_MESSAGE" value="animal_maze" />
+    <MESSAGE value="add vim" />
+    <option name="LAST_COMMIT_MESSAGE" value="add vim" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
