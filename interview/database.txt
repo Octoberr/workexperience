@@ -1,0 +1,13 @@
+mysql:
+redis:
+kafak:
+mongo:
+Grafana:
+第一次登录默认密码和账号都是admin
+修改为默认密码
+
+git 地址：
+
+node_exporter:通常用于收集和导出有关主机（节点）的系统性能指标
+Prometheus（普罗米修斯时序数据库）
+nginx.conf配置文件在 /etc/nginx/
