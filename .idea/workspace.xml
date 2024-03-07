@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="add vim">
-      <change afterPath="$PROJECT_DIR$/interview/ES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/celery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/daily_knowledge.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/database.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/django.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/git.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/go.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/grpc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/mongodb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/mysql.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/nginx.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/python.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/redis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/uwsgi.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/interview/计算机相关.md" afterDir="false" />
+    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="面试相关初步整理，后续深入的东西也集成在这里面">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/mysql.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +347,9 @@
       <workItem from="1704160432374" duration="568000" />
       <workItem from="1704161012736" duration="2227000" />
       <workItem from="1705651122635" duration="747000" />
-      <workItem from="1708479873873" duration="13028000" />
+      <workItem from="1708479873873" duration="13973000" />
+      <workItem from="1709519073286" duration="1444000" />
+      <workItem from="1709623066989" duration="5866000" />
     </task>
     <task id="LOCAL-00001" summary="animal_maze">
       <option name="closed" value="true" />
@@ -387,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702863980922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="面试相关初步整理，后续深入的东西也集成在这里面">
+      <option name="closed" value="true" />
+      <created>1708502636728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708502636728</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -424,7 +420,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="animal_maze" />
     <MESSAGE value="add vim" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vim" />
+    <MESSAGE value="面试相关初步整理，后续深入的东西也集成在这里面" />
+    <option name="LAST_COMMIT_MESSAGE" value="面试相关初步整理，后续深入的东西也集成在这里面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
