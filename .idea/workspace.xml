@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="面试相关初步整理，后续深入的东西也集成在这里面">
+    <list default="true" id="e7732bd7-e176-4331-a4f8-3b127479c3ca" name="Default" comment="更新">
+      <change afterPath="$PROJECT_DIR$/interview/team_work.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interview/mysql.md" beforeDir="false" afterPath="$PROJECT_DIR$/interview/mysql.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interview/database.txt" beforeDir="false" afterPath="$PROJECT_DIR$/interview/database.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -349,7 +350,9 @@
       <workItem from="1705651122635" duration="747000" />
       <workItem from="1708479873873" duration="13973000" />
       <workItem from="1709519073286" duration="1444000" />
-      <workItem from="1709623066989" duration="5866000" />
+      <workItem from="1709623066989" duration="10377000" />
+      <workItem from="1709871678304" duration="3254000" />
+      <workItem from="1710227852500" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="animal_maze">
       <option name="closed" value="true" />
@@ -383,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708502636728</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新">
+      <option name="closed" value="true" />
+      <created>1709785615863</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709785615863</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -421,7 +432,8 @@
     <MESSAGE value="animal_maze" />
     <MESSAGE value="add vim" />
     <MESSAGE value="面试相关初步整理，后续深入的东西也集成在这里面" />
-    <option name="LAST_COMMIT_MESSAGE" value="面试相关初步整理，后续深入的东西也集成在这里面" />
+    <MESSAGE value="更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
