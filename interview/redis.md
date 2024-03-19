@@ -284,3 +284,6 @@ Redis 哨兵（Sentinel）系统和 Redis 集群（Cluster）都是用于提高 
 
 
 这些问题覆盖了Redis的基础知识到高级应用，准备这些内容可以帮助你在面试中更好地展现你对Redis的理解和实践经验。
+
+redis流消费者组
+如果redis没有流的话，无法建立消费者组，建立消费者需要check redis里面是否有流
