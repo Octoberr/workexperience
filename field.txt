@@ -275,5 +275,8 @@ $: 跳到行尾。
 {: 跳到段落开头。
 }: 跳到段落结尾。
 
+go 生成grpc代码
+protoc --go_out=. --go-grpc_out=. example.proto
 
-
+python生成grpc代码
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. example.proto
