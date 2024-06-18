@@ -280,3 +280,6 @@ protoc --go_out=. --go-grpc_out=. example.proto
 
 python生成grpc代码
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. example.proto
+
+github远程失效更新
+git remote set-url origin https://<username>:<token>@github.com/Octoberr/workexperience.git
