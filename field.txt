@@ -282,4 +282,6 @@ python生成grpc代码
 python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. example.proto
 
 github远程失效更新
-git remote set-url origin https://<username>:<token>@github.com/Octoberr/workexperience.git
+鉴权失败，可能是token过期了
+git remote set-url origin https://linxi:<token>@github.com/Octoberr/workexperience.git
+user_name = linxi
