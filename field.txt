@@ -285,3 +285,13 @@ github远程失效更新
 鉴权失败，可能是token过期了
 git remote set-url origin https://linxi:<token>@github.com/Octoberr/workexperience.git
 user_name = linxi
+script
+  -- testfunc
+      -- pb
+         -- pb_pb2.py
+         -- pb_pb2.grpc.py
+         -- task_sys_internal_mem.py
+  -- utils
+     -- load_settings.py
+export PYTHONPATH=/data/script
+python /data/script/testfunc/pb/task_sys_internal_mem.py
